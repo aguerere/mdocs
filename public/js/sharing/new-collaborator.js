@@ -2,6 +2,7 @@ define(function (require) {
   var $ = require('jquery');
   var request = require('reqwest');
   var Jvent = require('Jvent');
+  require('bootstrap');
 
   var emitter = new Jvent();
   var collabAutocompleteItemTmpl = require('js/templates/collab-autocomplete-item');
